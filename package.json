@@ -1,6 +1,6 @@
 {
-  "name": "next-seo",
-  "version": "5.5.0",
+  "name": "@la-fourche/next-seo",
+  "version": "5.5.1",
   "description": "SEO plugin for Next.js projects",
   "source": "src/index.tsx",
   "main": "lib/next-seo.js",
@@ -49,7 +49,10 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/garmeeh/next-seo.git"
+    "url": "https://github.com/la-fourche/next-seo.git"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com"
   },
   "keywords": [
     "next.js",
