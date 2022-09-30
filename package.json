@@ -23,6 +23,7 @@
     "test:e2e:ci": "npm-run-all --parallel --race e2e:start cy:run",
     "prepublishOnly": "yarn build",
     "prebuild": "rimraf ./lib",
+    "prepare": "yarn build",
     "format": "prettier",
     "table-of-contents": "doctoc README.md",
     "type-check": "tsc --noEmit",
