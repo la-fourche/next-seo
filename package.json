@@ -1,6 +1,6 @@
 {
   "name": "@la-fourche/next-seo",
-  "version": "5.5.1",
+  "version": "5.5.2",
   "description": "SEO plugin for Next.js projects",
   "source": "src/index.tsx",
   "main": "lib/next-seo.js",
@@ -23,7 +23,6 @@
     "test:e2e:ci": "npm-run-all --parallel --race e2e:start cy:run",
     "prepublishOnly": "yarn build",
     "prebuild": "rimraf ./lib",
-    "prepare": "yarn build",
     "format": "prettier",
     "table-of-contents": "doctoc README.md",
     "type-check": "tsc --noEmit",
@@ -53,7 +52,7 @@
     "url": "https://github.com/la-fourche/next-seo.git"
   },
   "publishConfig": {
-    "registry": "https://npm.pkg.github.com"
+    "@la-fourche:registry": "https://gitlab.com/api/v4/projects/39930541/packages/npm/"
   },
   "keywords": [
     "next.js",
